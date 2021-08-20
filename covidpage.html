@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:8000/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>NewPage</title>
+	<link href="./covidpage_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+	<style type="text/css">
+		.container{
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border-radius: 10px;
+			height: 100px;  
+			width: 200px;
+			text-align: center;
+		}
+	</style>
+<style type="text/css" id="tts-styles">[data-tts-block-id].tts-active {background: rgba(206, 225, 255, 0.9) !important;} [data-tts-sentence-id].tts-active {background: rgba(0, 89, 191, 0.7) !important;}</style></head>
+<body style="background-color: lightgray">	
+	
+	<!-- <h1>
+		India
+	</h1>
+	<p>New : +152514</p>
+	<p>Active : 1107753</p>
+	<p>Critical : 8944</p>
+	<p>Recovered : 12078240</p>
+	<p>Deaths : 169304</p>
+	<p>Total : 13355297</p>
+ -->
+
+	<h1 style="color: white; text-align: center; margin-top: 100px"><span style="color: red">COVID-19</span> WORLDWIDE DATA</h1>
+		
+	<form style="margin-top: 50px" method="post" class="d-flex justify-content-center align-items-center" action="http://127.0.0.1:8000/">
+		<input type="hidden" name="csrfmiddlewaretoken" value="k4ceVTq0xgGiqqmDrLW5TedSNiWS8bHyYmYg5KATY2mMCXrivTpuM5JtpqN6hcvd">
+		<select class="form-control" style="width: 200px" name="selectedcountry">
+			
+			<option>Micronesia</option>
+			
+			<option>China</option>
+			
+			<option>Vanuatu</option>
+			
+			<option>Anguilla</option>
+			
+			<option>Greenland</option>
+			
+			<option>Montserrat</option>
+			
+			<option>Saint-Kitts-and-Nevis</option>
+			
+			<option>Solomon-Islands</option>
+			
+			<option>Macao</option>
+			
+			<option>Vatican-City</option>
+			
+			<option>Samoa</option>
+			
+			<option>Marshall-Islands</option>
+			
+			<option>Laos</option>
+			
+			<option>MS-Zaandam</option>
+			
+			<option>Western-Sahara</option>
+			
+			<option>Saint-Pierre-Miquelon</option>
+			
+			<option>Cayman-Islands</option>
+			
+			<option>British-Virgin-Islands</option>
+			
+			<option>Dominica</option>
+			
+			<option>Brunei</option>
+			
+			<option>Tanzania</option>
+			
+			<option>Falkland-Islands</option>
+			
+			<option>Wallis-and-Futuna</option>
+			
+			<option>St-Barth</option>
+			
+			<option>Faeroe-Islands</option>
+			
+			<option>Diamond-Princess</option>
+			
+			<option>Grenada</option>
+			
+			<option>Fiji</option>
+			
+			<option>New-Caledonia</option>
+			
+			<option>Antigua-and-Barbuda</option>
+			
+			<option>Taiwan</option>
+			
+			<option>Bermuda</option>
+			
+			<option>Timor-Leste</option>
+			
+			<option>St-Vincent-Grenadines</option>
+			
+			<option>Bhutan</option>
+			
+			<option>Isle-of-Man</option>
+			
+			<option>Saint-Martin</option>
+			
+			<option>Liberia</option>
+			
+			<option>Mauritius</option>
+			
+			<option>Sao-Tome-and-Principe</option>
+			
+			<option>Sint-Maarten</option>
+			
+			<option>Caribbean-Netherlands</option>
+			
+			<option>Guinea-Bissau</option>
+			
+			<option>New-Zealand</option>
+			
+			<option>Sierra-Leone</option>
+			
+			<option>Burundi</option>
+			
+			<option>Liechtenstein</option>
+			
+			<option>Vietnam</option>
+			
+			<option>Channel-Islands</option>
+			
+			<option>Comoros</option>
+			
+			<option>Monaco</option>
+			
+			<option>Turks-and-Caicos</option>
+			
+			<option>Barbados</option>
+			
+			<option>Eritrea</option>
+			
+			<option>Saint-Lucia</option>
+			
+			<option>Gambia</option>
+			
+			<option>Nicaragua</option>
+			
+			<option>CAR</option>
+			
+			<option>Iceland</option>
+			
+			<option>Cambodia</option>
+			
+			<option>San-Marino</option>
+			
+			<option>Gibraltar</option>
+			
+			<option>Equatorial-Guinea</option>
+			
+			<option>Seychelles</option>
+			
+			<option>Niger</option>
+			
+			<option>Chad</option>
+			
+			<option>Yemen</option>
+			
+			<option>Djibouti</option>
+			
+			<option>Papua-New-Guinea</option>
+			
+			<option>Trinidad-and-Tobago</option>
+			
+			<option>Martinique</option>
+			
+			<option>Lesotho</option>
+			
+			<option>South-Sudan</option>
+			
+			<option>Congo</option>
+			
+			<option>Benin</option>
+			
+			<option>Guyana</option>
+			
+			<option>Cura&amp;ccedil;ao</option>
+			
+			<option>Aruba</option>
+			
+			<option>Bahamas</option>
+			
+			<option>Suriname</option>
+			
+			<option>Andorra</option>
+			
+			<option>Guadeloupe</option>
+			
+			<option>Tajikistan</option>
+			
+			<option>Mongolia</option>
+			
+			<option>Togo</option>
+			
+			<option>Burkina-Faso</option>
+			
+			<option>Haiti</option>
+			
+			<option>Eswatini</option>
+			
+			<option>Belize</option>
+			
+			<option>Mali</option>
+			
+			<option>Hong-Kong</option>
+			
+			<option>Somalia</option>
+			
+			<option>Maldives</option>
+			
+			<option>Syria</option>
+			
+			<option>Angola</option>
+			
+			<option>Cabo-Verde</option>
+			
+			<option>Mauritania</option>
+			
+			<option>Madagascar</option>
+			
+			<option>Guinea</option>
+			
+			<option>Rwanda</option>
+			
+			<option>Gabon</option>
+			
+			<option>Mayotte</option>
+			
+			<option>French-Polynesia</option>
+			
+			<option>French-Guiana</option>
+			
+			<option>R&amp;eacute;union</option>
+			
+			<option>Malawi</option>
+			
+			<option>Australia</option>
+			
+			<option>Ivory-Coast</option>
+			
+			<option>Thailand</option>
+			
+			<option>Zimbabwe</option>
+			
+			<option>Uganda</option>
+			
+			<option>Senegal</option>
+			
+			<option>Malta</option>
+			
+			<option>DRC</option>
+			
+			<option>Sudan</option>
+			
+			<option>Botswana</option>
+			
+			<option>Namibia</option>
+			
+			<option>Jamaica</option>
+			
+			<option>Mozambique</option>
+			
+			<option>Cameroon</option>
+			
+			<option>Uzbekistan</option>
+			
+			<option>El-Salvador</option>
+			
+			<option>Kyrgyzstan</option>
+			
+			<option>Afghanistan</option>
+			
+			<option>Finland</option>
+			
+			<option>Cyprus</option>
+			
+			<option>Zambia</option>
+			
+			<option>Cuba</option>
+			
+			<option>Singapore</option>
+			
+			<option>Luxembourg</option>
+			
+			<option>Sri-Lanka</option>
+			
+			<option>Uruguay</option>
+			
+			<option>S-Korea</option>
+			
+			<option>Estonia</option>
+			
+			<option>Myanmar</option>
+			
+			<option>Algeria</option>
+			
+			<option>Latvia</option>
+			
+			<option>Norway</option>
+			
+			<option>North-Macedonia</option>
+			
+			<option>Montenegro</option>
+			
+			<option>Kenya</option>
+			
+			<option>Albania</option>
+			
+			<option>Ghana</option>
+			
+			<option>Venezuela</option>
+			
+			<option>Honduras</option>
+			
+			<option>Armenia</option>
+			
+			<option>Lithuania</option>
+			
+			<option>Nigeria</option>
+			
+			<option>Egypt</option>
+			
+			<option>Qatar</option>
+			
+			<option>Costa-Rica</option>
+			
+			<option>Guatemala</option>
+			
+			<option>Bosnia-and-Herzegovina</option>
+			
+			<option>Oman</option>
+			
+			<option>Libya</option>
+			
+			<option>Bahrain</option>
+			
+			<option>Paraguay</option>
+			
+			<option>Ethiopia</option>
+			
+			<option>Kazakhstan</option>
+			
+			<option>Slovenia</option>
+			
+			<option>Nepal</option>
+			
+			<option>Palestine</option>
+			
+			<option>Denmark</option>
+			
+			<option>Tunisia</option>
+			
+			<option>Kuwait</option>
+			
+			<option>Dominican-Republic</option>
+			
+			<option>Ireland</option>
+			
+			<option>Moldova</option>
+			
+			<option>Ecuador</option>
+			
+			<option>Panama</option>
+			
+			<option>Bolivia</option>
+			
+			<option>Georgia</option>
+			
+			<option>Slovakia</option>
+			
+			<option>Croatia</option>
+			
+			<option>UAE</option>
+			
+			<option>Malaysia</option>
+			
+			<option>Saudi-Arabia</option>
+			
+			<option>Belarus</option>
+			
+			<option>Azerbaijan</option>
+			
+			<option>Bulgaria</option>
+			
+			<option>Greece</option>
+			
+			<option>Israel</option>
+			
+			<option>Lebanon</option>
+			
+			<option>Switzerland</option>
+			
+			<option>Pakistan</option>
+			
+			<option>Hungary</option>
+			
+			<option>Austria</option>
+			
+			<option>Bangladesh</option>
+			
+			<option>Morocco</option>
+			
+			<option>Serbia</option>
+			
+			<option>Philippines</option>
+			
+			<option>Jordan</option>
+			
+			<option>Japan</option>
+			
+			<option>Portugal</option>
+			
+			<option>Canada</option>
+			
+			<option>South-Africa</option>
+			
+			<option>Ukraine</option>
+			
+			<option>Czechia</option>
+			
+			<option>Belgium</option>
+			
+			<option>Iran</option>
+			
+			<option>Indonesia</option>
+			
+			<option>Romania</option>
+			
+			<option>Peru</option>
+			
+			<option>Sweden</option>
+			
+			<option>Netherlands</option>
+			
+			<option>Iraq</option>
+			
+			<option>Chile</option>
+			
+			<option>India</option>
+			
+			<option>Turkey</option>
+			
+			<option>Mexico</option>
+			
+			<option>Germany</option>
+			
+			<option>France</option>
+			
+			<option>Spain</option>
+			
+			<option>Russia</option>
+			
+			<option>Poland</option>
+			
+			<option>Brazil</option>
+			
+			<option>Colombia</option>
+			
+			<option>Argentina</option>
+			
+			<option>Italy</option>
+			
+			<option>UK</option>
+			
+			<option>Africa</option>
+			
+			<option>North-America</option>
+			
+			<option>Asia</option>
+			
+			<option>Europe</option>
+			
+			<option>All</option>
+			
+			<option>USA</option>
+			
+			<option>Oceania</option>
+			
+			<option>South-America</option>
+			
+			<option>MS-Zaandam-</option>
+			
+			<option>Diamond-Princess-</option>
+			
+			<option>US-Virgin-Islands</option>
+			
+			<option>Puerto-Rico</option>
+			
+			<option>Guam</option>
+			
+		</select>
+		<input type="submit" class="btn btn-danger" name="">
+	</form>	
+
+	<h1 style="color: navy; text-align: center; margin-top: 100px">
+		India
+	</h1>
+
+	<div class="d-flex justify-content-center align-items-center">
+		<div class="container" style="background-color: white; color: chocolate">
+			<h1>13355297</h1>
+			<p>Total cases</p>
+		</div>
+		<div class="container" style="background-color: red; color: white">
+			<h1>1107753</h1>
+			<p>Active cases</p>
+		</div>
+		<div class="container" style="background-color: skyblue; color: red ">
+			<h1>8944</h1>
+			<p>Critical cases</p>
+		</div>
+	</div>
+	<div class="d-flex justify-content-center align-items-center">
+		<div class="container" style="background-color: green; color: yellow">
+			<h1>12078240</h1>
+			<p>Recovered cases</p>
+		</div>
+		<div class="container" style="background-color: yellow; color: blue">
+			<h1>+152514</h1>
+			<p>New cases</p>
+		</div>
+		<div class="container" style="background-color: brown; color: white">
+			<h1>169304</h1>
+			<p>Deaths cases</p>
+		</div>
+	</div>
+	<marquee style="margin-top: 100px">Developed by © <span style="color: olive">Er.SR</span></marquee>
+
+</body></html>
