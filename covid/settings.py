@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-76ix(hrdxcmw8by3v03$odz82o+ocpi!1qtf(!vg6^&_djq*dc
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1'
+    '127.0.0.1',
     'covidstatsapp.herokuapp.com'
 ]
 
